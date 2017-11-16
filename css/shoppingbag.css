@@ -1,0 +1,709 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+body{
+     color:#666;
+    font:normal 12px/1.5 Verdana,simsun,Sans-Serif;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #e5004f;
+}
+#hd {
+  height: 34px;
+  background: #eee;
+  border-bottom: 1px solid #fff; }
+
+#hd .hd-center {
+  height: 34px;
+  width: 1190px;
+  margin: 0 auto;
+  background: #eee; }
+
+#hd .hd-center .hd-left-ul li a {
+  color: #666;
+  font-size: 12px;
+  height: 34px;
+  position: relative;
+  padding-left: 27px;
+  line-height: 34px;
+  display: block; }
+
+#hd .hd-center .hd-left-ul .hd-left-wechat{
+      width:40px;
+      padding:0 6px 0 31px;
+      margin:0px;
+}
+#hd .hd-center .hd-left-ul li{
+  position:relative;
+  height:34px;
+}
+#hd .hd-center .hd-left-ul .wechat-code-cls{
+      position:absolute;
+      background-color:#fff;
+      top:34px;
+      height:100px;
+      width:100px;
+      border:0px;
+      margin-left:80px;
+      padding:10px;
+      display:none;
+      box-shadow: 0 0 8px #cdcdcd;
+}
+
+#hd .hd-center #hd-left {
+  height: 34px;
+  float: left; }
+
+#hd .hd-center #hd-left .hd-left-ul {
+  height: 34px;
+  padding-left: 4px; }
+
+#hd .hd-center li {
+  list-style: none;
+  float: left; }
+#hd .hd-center li:hover a{
+      color:red;
+}
+#hd .hd-center #hd-left li a p {
+  top: 7px;
+  left: 2px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  background: url(../img/header-02.png) 0 0 no-repeat; }
+
+#hd .hd-center #hd-left li.separator{
+      float:left;
+      top:10px;
+      margin:0 6px;
+      left:0px;
+      height:14px;
+      line-height:14px;
+      position:relative;
+      border-left: 1px solid #eee;
+}
+
+  #hd .hd-center #hd-left .hd-left-ul .hd-left-phone p{
+    background:url(../img/phone.png) no-repeat;
+    height:20px;
+  }
+
+#hd .hd-center #hd-left .hd-left-ul .hd-left-page p {
+  background-position: -225px 0; }
+
+#hd .hd-center #hd-left .hd-left-ul .hd-left-page:hover p {
+  background-position: -225px -27px; }
+
+#hd .hd-center #hd-left .hd-left-ul .hd-left-wechat p {
+  background-position: -225px -56px; }
+
+#hd .hd-center #hd-left .hd-left-ul .hd-left-wechat:hover p {
+  background-position: -225px -86px; }
+
+#hd .hd-center #hd-left .hd-left-ul li:hover .wechat-code-cls img{
+   display:block; }
+
+#hd .hd-center #hd-left .hd-left-ul .hd-left-phone:hover p {
+  background-position: 0 -20px; }
+
+#hd .hd-center #hd-left li a.hd-left-wechat b{
+      position:absolute;
+      top:16px;
+      left:62px;
+      width:9px;
+      height:5px;
+      background:url(../img/header-01.png) -175px -111px no-repeat;
+}
+#hd .hd-center #hd-left li a.hd-left-wechat:hover b{
+    background-position:-175px -128px;
+}
+#hd .hd-center #hd-left li a.hd-left-phone b{
+      position:absolute;
+      top:16px;
+      left:82px;
+      width:9px;
+      height:5px;
+      background:url(../img/header-01.png) -175px -111px no-repeat;
+}
+#hd .hd-center #hd-left li a.hd-left-phone:hover b{
+    background-position:-175px -128px;
+  }
+#hd .hd-center #hd-left .hd-left-ul li .hd-left-cls{
+    left: 0; 
+    top: 34px;
+    width: 134px;
+    height: 145px; 
+    position: absolute;
+    padding: 8px 7px 10px;
+    box-shadow: 0 0 8px #cdcdcd;
+    background-color: #fff;
+    display: none;
+}
+
+#hd .hd-center .top-logs{
+  float: right;
+  height: 34px;
+}
+#hd .hd-center .top-logs li{
+  float: left;
+  height: 34px;
+  list-style: none;
+}
+#hd .hd-center .top-logs li:nth-of-type(1){
+  line-height: 34px;
+  padding-right: 10px;
+}
+#hd .hd-center .top-logs li a{
+  color: #666;
+  margin-right: 10px;
+  text-align: center;
+}
+#hd .hd-center .top-logs li a:hover{
+   color: #e5004f;
+}
+#hd .top-logs li.separator{
+    float: left;
+    width: 0;
+    height: 14px;
+    line-height: 14px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    font-size: 0;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    margin: 0 2px;
+}
+#hd .top-logs li .log-link{
+    float: left;
+    height: 26px;
+    padding: 8px 0 8px 10px;
+}
+#hd .top-logs li .yt-home{
+  width: 62px;
+  position:relative;
+}
+#hd .top-logs li .yt-home b{
+    position: absolute;
+    left: 68px;
+    top: 14px;
+    width: 9px;
+    height: 5px;
+    overflow: hidden;
+    background: url(../img/header-01.png) -175px -111px no-repeat;
+}
+#hd .top-logs li .yt-home:hover b{
+  transform:rotate(180deg);
+  transition: all 1s;
+}
+#hd .top-logs .log-yt-home{
+  position: relative;
+}
+#hd .top-logs li .yt-seller-myhome{
+  display: none;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  clear: both;
+  width: 82px;
+  z-index: 405;
+  box-shadow: 0 0 8px #cdcdcd;
+  background-color: #fff;
+}
+#hd .top-logs li .yt-seller-myhome p{
+    height: 29px;
+    line-height: 29px;
+    border-bottom: 1px solid #dcdcdc;
+}
+#hd .top-logs li .yt-seller-myhome p a{
+    display: block;
+    text-indent: 10px;
+}
+#hd .top-logs li .yt-seller-myhome p a:hover{
+  color: #e5004f;
+  text-decoration: underline;
+}
+#banan{
+  height:120px;
+  background-color:#fff;
+}
+#banan1{
+  height:120px;
+  width:1190px;
+  overflow: hidden;
+  background-color:#ffffff;
+  margin:0 auto;
+}
+#banan1 a{
+  width:215px;
+  height:76px;
+  display: block;
+  margin-top: 21px;
+  background: #eee url(../img/header-20160223.gif) 0 0 no-repeat;
+}
+#shoppbagm{
+  background:#EEEEEE;
+  height:465px;
+}
+  #shoppbagm1{
+   width:1190px;
+   /*height:425px;*/
+   margin:0 auto;
+   padding:20px;
+  }    
+#shoppbagm11{
+  width:940px;
+  height:385px;
+  padding:20px; 
+  margin: 0 auto;
+  position: relative;
+  background-color:#fff;
+}
+#shoppbagm11-1{
+  height:80px;
+}
+#shoppbagm11-1 #shoppbagm11-1-1{
+  height:80px;
+  width:120px;
+  float:left;
+  background: url(../img/shopping-head.jpg) 0 0 no-repeat;
+}
+#shoppbagm11-1 #shoppbagm11-1-2{
+  height:55px;
+  width:538px;
+  float:right;
+  background: url(../img/shopping-head.jpg) -158px 5px no-repeat;  
+}
+#spanbag1 /*,#spanbag3,#spanbag3 */{
+  background: url(../img/shopping-head.jpg) 0 0 no-repeat;
+}
+
+#shoppbagm11-1-2 span{
+  font-family: "\5fae\8f6f\96c5\9ed1";
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #999;
+  float:left;
+  width:76px;
+}
+#shoppbagm11-1-2 #spanbag1{
+  font-size: 14px;
+  color: #e4004d;
+  background-position: -158px -59px;
+}
+#shoppbagm11-1-2 #spanbag2{
+  margin-left:160px;
+  /*background-position: -158px -49px;*/
+}
+#shoppbagm11-1-2 #spanbag3{
+   margin-left:150px;
+}
+#shoppbagm11-1-2 span b{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 35px;
+  margin-left: 10px;
+}
+#shoppbagm11-2{
+  width:940px;
+  height:285px;
+  margin:10px auto ;
+  overflow: hidden;
+  position: absolute;
+  display:none; 
+  background: url(../img/coupon-bg_20131012.png) 0 0 repeat-x;
+}
+#shoppbagm11-2-bag{
+  float: left;
+  width: 108px;
+  height: 144px;
+  margin:72px 20px 0 281px;
+  background: url(../img/shopping-head.jpg) -754px 0 no-repeat;
+}
+#shoppbagm11-2-p{
+  margin-top: 100px;
+  font-weight: bolder;
+}
+#shoppbagm11-2-p h3{
+  font-size: 14px;
+  height:26px;
+  color:#666;
+}
+#shoppbagm11-2-p p{
+  line-height: 28px;
+}
+#shoppbagm11-2-p a{
+  width:93px;
+  height:35px; 
+  color:#fff;
+  display: block;
+  font-size: 14PX;
+  margin-left:420px;
+  text-align: center;
+  line-height: 35px;
+  border:1px solid #333;
+  background: #525252 url(../img/rpt.png) repeat-x 0 -150px;
+}
+#shoppbagm11-2-p a:hover{
+  background-position: 0 0;
+}
+#shoppbagm11-3{
+  width:940px;
+  height:313px;
+  /*z-index: 10;*/
+  position: absolute;
+  /*display:none;*/
+}
+#headline{
+  height:30px;
+  background:#666;
+}
+#headline span{
+  float: left;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 700;
+  overflow: hidden;
+  color: #fff;
+}
+#headline #headline1{
+  width: 103px;
+  padding-left: 27px;
+}
+/* #headline #headline1 */ i.check{
+  position: relative;
+  z-index: 1;
+  float: left;
+  width: 14px;
+  height: 13px;
+  margin:8px 3px 0 0;
+  overflow: hidden;
+  cursor: pointer;
+  background: url(../img/shopping-icon.png) 0 -55px no-repeat;
+}
+#headline #headline2{
+   width: 372px;
+}
+#headline #headline3{
+  width:130px;
+}
+#headline #headline4{
+  width:60px;
+  padding-left: 66px;
+}
+#headline #headline5{
+  width:90px;
+}
+#headline #headline6{
+  width:92px;
+}
+#samegoods{
+  width:940px;
+  height:120px;
+  /*background:#e2e2e2;*/
+  margin-bottom: 10px;
+}
+#samegoods #samegoods1{
+    height:30px;
+    background: #eee;
+    position: relative;
+    border-bottom: none; 
+    border: 1px solid #e2e2e2;
+}
+#samegoods #samegoods1 #samegoods1-1{
+    top: -1px;
+    left: -10px;
+    height: 40px;
+    overflow: hidden;
+    padding-left: 10px;
+    position: absolute;
+    background: url(../img/shopping-title-20141118.png) 0 0 no-repeat;
+}
+#samegoods #samegoods1 #samegoods1-1 h3{
+    color:#fff;
+    background: url(../img/shopping-title-20141118.png) 0 0 no-repeat;
+ }
+#samegoods #samegoods1 #samegoods1-1 .AI{
+    line-height: 30px;
+    font-size: 12px;
+    padding: 0 32px 0 10px;
+    background-position: right -45px;
+}
+#samegoods #samegoods1 #samegoods1-2{
+    float: right;
+    width:338px;
+    line-height: 30px;
+}
+#samegoods #samegoods1 #samegoods1-2 p{
+    float:left;
+    color: #e5004f;
+}
+#samegoods #samegoods1 #samegoods1-2 a{
+    float:right;
+    color: #e5004f;
+    padding-right: 15px;
+    font-family: simsun;
+    text-decoration: underline
+}
+#samegoods #samegoods2{
+    height:73px;
+    padding:15px 0 0;
+    background-color: #f9f9f9;
+}
+#samegoods #samegoods2 #checkshop{
+    width:435px;
+    height:62px;
+    float:left;
+    margin-left:10px;
+}
+#samegoods2 #checkshop #checkimg{
+    float: left;
+    width: 45px;
+    height: 60px;
+    margin-right: 10px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    background-color: #fff;
+}
+#samegoods2 #checkshop #checkp em{
+    width: 18px;
+    height: 17px;
+    float: left;
+    margin-right:10px;
+    display: inline-block;
+    background: url(../img/miao-card-small.png) 0 0 no-repeat;
+}
+#samegoods2 #checkshop #checkp a{
+    color:#666;
+}
+#samegoods2 #checkshop #checkcs{
+     float: left;
+}
+#samegoods2 #checkshop #checkcs p{
+     color: #999;
+     display: inline;
+     margin-right: 10px;
+     line-height: 22px;
+}
+#samegoods2 #checkR{
+    color:#e5004f;
+    float:left;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+#samegoods2 #checkinput{
+    width: 66px; 
+    color: #666;
+    float:left;
+    margin-top: 11px;
+    background:pink;
+    margin-left: 115px;
+    text-align: center;
+}
+#samegoods2 #checkinput #input12{
+    width: 28px;
+    height: 18px;
+    outline: 0;
+    float:left;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+#samegoods2 #checkinput a{
+    width: 16px;
+    height: 18px;
+    float:left;
+    line-height: 18px;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    background-color: #eee;
+    color: #666;
+}
+#samegoods2 #integral{
+    float: left;
+}
+#samegoods2 #handle{
+    width:91px;
+    float: right;
+    margin-top: 5px;
+}
+#samegoods2 #handle #handle1{
+    position: relative;
+}
+#samegoods2 #handle a{
+    display: block;
+    width: 52px;
+    height: 18px;
+    padding-left: 16px;
+    color: #666;
+    background: url(../img/shopping-icon.png) 0 -177px no-repeat;
+}
+#samegoods2 #handle a:hover{
+   color: #e5004f;
+}
+#samegoods2 #handle #handle1 a{
+    background-position: 0 -92px;
+}
+#samegoods2 #handle #handle2 a{
+    background-position: 1px -125px;
+}
+#samegoods2 #handle #handle2 .headle2-1{
+  top:40px;
+  left:800px;
+}
+#samegoods2 #handle #handle1-1{
+    position: absolute;
+    top: -62px;
+    left: -49px;
+    width: 158px;
+    height: 40px;
+    padding: 8px 0;
+    display: none; 
+    border-radius: 10px;
+    border: 1px solid #cecece;
+    background-color: #fffeed;
+}
+#samegoods2 #handle #handle1-1 p{
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+#samegoods2 #handle #handle1-1 span{
+    cursor: pointer;
+    display: inline-block;
+}
+#samegoods2 #handle #handle1-1 span:hover{
+    color: #e5004f;
+}
+#samegoods2 #handle #handle1-1 span:nth-of-type(1){
+    margin-left:40px;
+}
+#Aaccount{
+    width:938px;
+    height:120px;   
+    border: solid #ddd; 
+    background:#eee;
+    padding:10px 0 20px;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-width: 1px 1px 2px;
+}
+#Aaccountq{
+  float:left;
+}
+#Aaccount1{
+    width:898px;
+    min-height: 24px;
+    margin: 15px 20px 5px;
+ }  
+ #Aaccount1 #Aaccount1-1 i{
+    margin-top:5px;
+ } 
+#Aaccount1 a{
+    color: #666;
+    margin-right:15px;
+    line-height: 24px;
+}
+#Aaccount1 a:hover{
+  color:#e5004f;
+}  
+#Aaccountw{
+  float:right;
+}
+#Aaccountw #full{
+    color:#666;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px 0 20px;
+    font-weight: 700;
+    font-size: 14px;
+    background: url(../img/shopping-icon.png) 0 0 no-repeat;
+}
+ #Aaccount2{
+    min-height: 24px;
+    margin: 0 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d2d2d2;
+ }
+ #Aaccount2-1{
+    width:534px;
+    height:24px;
+    float:right;
+    font-size: 14px;
+    line-height: 24px;
+}
+#Aaccount2-1 strong{
+    font-family: Verdana;
+    font-weight: 400;
+    color: #e5004f;
+}
+#Aaccount2-1 #math{
+  padding: 0 5px;
+  color: #bfbebe;
+}
+#Aaccount3{
+    height: 0px;
+    overflow: hidden;
+    margin: 0 20px;
+    border-top: 1px solid #fff;
+  }
+#Aaccount4{
+    width: 886px;
+    height: 30px;
+    padding: 8px 26px 15px;
+    bottom: 0;
+    z-index: 99;
+    background-color: #eee;
+} 
+#Aaccount4-1{
+  float:right;
+ }
+ #btn{
+    float: right;
+    width: 144px;
+    height: 39px;
+    border:0;
+    outline: 0;
+    margin-left: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../img/shopping-submit.png) 0 0 no-repeat;
+ }
+ #Aaccount4-1:hover #btn{
+   background-position:-147px 0;
+ }
+#Aaccount4-2 #AaccountNum{
+    float:right;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+#Aaccount4-2 #AaccountNum i{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -5px;
+    font-style: normal;
+    color: #666;
+} 
+#Aaccount4-2 #AaccountNum b{
+    padding: 0 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    color: #e5004f;
+    vertical-align: middle;
+}
+
+ 

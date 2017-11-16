@@ -1,0 +1,93 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-24 22:40:32
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-24 23:15:28
+*/
+*{
+    margin:0px;
+    padding:0px;
+}
+.nav {
+    height:116px;
+}
+.nav .navmd{
+    height:76px;
+    width:1190px;
+    margin:0 auto;
+    background:#fff;
+    padding:20px 0;
+}
+.nav .navmd a{
+    display: block;
+    width: 215px;
+    height: 76px;
+    background: #eee url(../img/header-20160223.gif) 0 0 no-repeat;
+    float: left ;
+}
+.nav .wel{
+    float: left;
+    width: 124px;
+    height: 24px;
+    margin-top: 52px;
+    background: url(../img/header-login.png) 0 0 no-repeat;
+}
+.nav .navle{
+    float: right;
+    height: 76px;
+    margin-top:35px;
+}
+.nav .navle .return{
+     width: 145px;
+     padding: 0 0 0 45px;
+     background: url(../img/footer-01.png) 0 -80px no-repeat;
+}
+.nav .navle .product{
+    width: 130px;
+    padding: 0 0 0 48px;
+    background: url(../img/footer-01.png) 0 -154px no-repeat;
+}
+.nav .navle .freesh{
+    width: 110px;
+    border-right: none;
+    padding: 0 0 0 60px;
+    background: url(../img/footer-01.png) 0 -225px no-repeat;
+}
+.nav .navle .freesh i{
+    font-size: 14px;
+}
+.nav .navle span{
+    float: left;
+    height: 41px;
+    font-family: "微软雅黑";
+}
+.nav .navle span strong{
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-weight:200 ;
+}
+.nav .navle span strong i{
+    color:#e5004f;
+    font-style: normal;
+}
+.nav .navle span strong b{
+    font-weight: 200;
+    color:#888;
+    font-size: 12px;
+}
+#body{
+    height:570px;
+    background:#f9f9f9;
+}
+#body .body-img{
+    padding:60px 0 50px;
+    width:1190px;
+    margin:0 auto;
+    position:relative;
+}
+#body .body-img img{
+    height:460px;
+}
+
+ 

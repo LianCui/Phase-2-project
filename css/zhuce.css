@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+	/* box-sizing: border-box; */
+}
+.regist{
+	width:385px;
+	height:460px;
+	float:right; 
+	margin:0 auto;
+	background-color: #F1F1F1;
+}
+.regist .re-title{
+	background: #fff;
+	border-bottom: 3px solid #e5004f;
+	text-align: center;
+	height:37px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+}
+.regist .re-switch{
+	height:39px;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: right;
+	border-bottom:1px solid #D2D2D2; 
+}
+.regist .re-switch a{
+	color:red;
+	padding-right:20px;
+	text-decoration: none;
+}
+.re-middle {
+	height:180px;
+	width:385px;
+	background: #fff;
+	position:relative;
+}
+.re-middle  .re-middle1{
+	height:44px;
+	line-height: 44px;
+	padding-left:20px;
+	border-bottom:1px solid #D2D2D2; 
+}
+.re-middle  .re-middle1 input{
+	height: 20px;
+	width: 50%;
+	color: #333;
+	border:0;
+	outline: none;
+	font-size: 14px;
+}
+.re-middle .re-middle1 .btn{
+	float: right;
+	outline: none;
+	margin-right: 20px;
+	margin-top: 8px;
+	width: 90px;
+	height: 28px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #999;
+	border-radius: 3px;
+	font-size: 12px;
+	color: #666;
+	background: #fff;
+}
+.re-middle #zcshade{
+	width:385px;
+	height:460px;
+	top:-80px;
+	position:absolute;
+	background-color:rgba(0,0,0,0.5);
+	display: none;
+}
+.re-middle #warm{
+	width:308px;
+	text-align:center;
+	background:#fff;
+	position:absolute;
+	top:80px;
+	left:50px;
+	border-radius: 10px;
+}
+.re-middle #warm h3{
+	font-weight: 500;
+	padding:15px 15px 0;
+}
+.re-middle #warm p{
+	font-size: 15px;
+	font-family: sans-serif;
+	padding:30px 15px;
+	border-bottom: 1px solid rgb(230, 230, 230); 
+}
+.re-middle #warm h4{
+	font-weight: 500;
+	color: rgb(255, 59, 127);
+	padding:10px 0;
+}
+.regist .re-p1{
+	line-height: 16px;
+	padding: 10px;
+	color: #666;
+	font-size: 12px;
+}
+.regist button{
+	display: block;
+	width: 80%;
+	height: 35px;
+	outline: 0;
+	color:#fff;
+	line-height: 35px;
+	margin: 0 auto 15px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 6px;
+	background: #CCCCCC;
+	border:1px solid #ccc;
+}

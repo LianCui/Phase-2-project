@@ -1,0 +1,56 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.ft .ftm{
+	width:1190px;
+	height:196px;
+	margin:0 auto;
+
+}
+.ftm .fto{
+	margin-top:30px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.ftm .fto a{
+	text-decoration: none;
+	color:#757575;
+	padding:0 5px;
+	font-size: 12px;
+}
+.ftm .fto a:hover{
+	color:#e5004f;
+}
+.ftm .ftz{
+	height:44px;
+}
+.ftm .ftz p{
+	height:22px;
+	line-height: 22px;
+	font-size: 12px;
+	color:#b2b2b2;
+	text-align: center;
+}
+.ftm .ftt{
+	height:78px;
+	width:1190px;
+}
+.ftm .ftt img{
+	padding:0 13px;
+	margin-top:20px; 
+	border:0px;
+}
+.ftm .ftt .im1{
+	margin-left:423px;
+	height:41px;
+	width:114px;
+}
+.ftm .ftt .im2{
+	height:40px;
+	width:102px;
+}
+.ftm .ftt .im3{
+	height:45px;
+	width:49px;
+}

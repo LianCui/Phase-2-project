@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情1</title>
+     <link rel="stylesheet" href="css/yinftai.css" />
+     <link rel="stylesheet" href="css/shopdetails.css"/>
+     <link rel="stylesheet" href="css/allunderlean.css">
+     <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+     <script type="text/javascript" src="js/shopdetails.js"></script>
+     <script type="text/javascript" src="js/jquery.cookie.js"></script>
+     
+     <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+
+<!-- 头部 -->
+	<div id = "hd">
+		<div class = "hd-center">
+			<div id = "hd-left">
+				<ul class = "hd-left-ul">
+					<li>
+						<a class = "hd-left-page" href="http://www.yintai.com/?intcmp=GGW20141215_home_f_a1" target="_blank">
+						  <p></p>
+						  银泰首页
+						  <li class="separator"></li>
+						</a>
+					</li>
+					<li>
+                        <a class = "hd-left-wechat" href="">
+                            <p></p>
+                                微信
+                            <b></b>
+                            <li class="separator"></li>
+                        </a>
+                         <div class = "wechat-code-cls">
+                             <img src="img/wechat.png" alt="" />
+                         </div>
+					</li>
+					<li>
+                        <a class = "hd-left-phone" href="">
+                            <p></p>
+                                手机银泰
+                            <b></b>
+                        </a>
+                        <div class="hd-left-cls">
+                            <img src="img/appphone.png" alt=""/>
+                        </div>
+					</li>
+				</ul>
+			</div>
+			<ul class="top-logs">
+                <li class="log-user">
+                    <span >Hi，欢迎来到银泰网！</span>
+                    <a href="http://secure.yintai.com/member/login?returnURL=http%3A%2F%2Fwww.yintai.com%2F" target="_blank">登录</a>
+                    <a href="http://secure.yintai.com/member/register?returnURL=http%3A%2F%2Fwww.yintai.com%2F" target="_blank">注册</a>
+                    <li class="separator"></li>
+                </li>
+                <li>
+                    <a class="log-link" href="http://my.yintai.com/Order/OrderList" 
+                        target="_blank">我的订单</a>
+                     <li class="separator"></li>
+                </li>
+                <li class="log-yt-home">
+                    <div class="y_myhome">
+                        <a class="log-link yt-home" href="http://my.yintai.com">
+                            我的银泰
+                            <b></b>
+                        </a>
+                       <div class="yt-seller-myhome">
+                            <div class="yt-home-link">
+                                <p><a target="_blank" href="http://my.yintai.com/Account/ FavoriteList">我的收藏</a></p>
+                                <p><a target="_blank" href="http://my.yintai.com/Account/BalanceList">我的余额</a></p>
+                                <p><a target="_blank" href="http://my.yintai.com/Account/CoinList">我的银元</a></p>
+                                <p><a target="_blank" href="http://my.yintai.com/YTCard/MyCardBind">我的银泰卡</a></p>
+                                <p><a target="_blank" href="http://my.yintai.com/Account/MyTicketList">我的优惠券</a></p>
+                                <p><a target="_blank" href="http://my.yintai.com/Account/PointList">我的积分</a></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <li class="separator"></li>
+                </li>
+                <li>
+                    <a target="_blank" href="http://event.yintai.com/yintaika.shtml" class="log-link">银泰卡</a>
+                    <li class="separator"></li>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.yintai.com/help/index.html" 
+                       class="log-link">帮助中心
+                    </a>
+                </li>
+            </ul>
+		</div>
+	</div>
+<!--banner图-->
+    <div class = "banner">
+        <a class = "img" href="http://promotion.yintai.com/20170825/mp/change/NEW.html"
+            target="_blank">
+        </a>
+    </div>
+<!-- 小导航 -->
+    <div class = "logo">
+        <div class = "logo-left">
+            <h1 class = "yt-logo">
+                <a href="http://www.yintai.com">  </a>
+            </h1>
+            <div class = "shopcard">
+                <a href="http://cart.yintai.com"  target="_blank">
+                    <span>购物袋<strong id="num">0</strong>件</span>
+                    <b></b>
+                </a>
+            </div>
+            <div id="empty">
+              <p>您的购物袋内还没有商品,赶紧选购吧!</p>
+            </div>
+            <div class = "search">
+                <div class = "search-box">
+                        <input type="text" placeholder="大家正在搜：华帝卡尼男装  金秋新品  商务时尚不张扬" />
+                        <button></button>
+                </div>
+                <div class = "search-down">
+
+                    <a target="_blank" href="http://www.yintai.com/product/search.aspx?N=10001959&amp;keyword=%E8%A1%AC%E8%A1%AB">长袖衬衫</a>
+                    <a target="_blank" href="http://www.yintai.com/product/search.aspx?N=10000534&amp;keyword=%E7%9A%AE%E8%82%A4">皮肤衣</a>
+                    <a target="_blank" href="http://www.yintai.com/product/search.aspx?N=10000715&amp;keyword=%E9%A3%8E%E8%A1%A3">风衣</a>
+                    <a target="_blank" href="http://www.yintai.com/store/store-50002522.html">科莱丽</a>
+                    <a target="_blank" href="http://www.yintai.com/product/search.aspx?N=10000856&amp;keyword=%E7%9F%AD%E9%9D%B4">短靴</a>
+                    <a target="_blank" href="http://www.yintai.com/product/search.aspx?N=10000520&amp;keyword=%E5%8D%95%E8%82%A9%E5%8C%85">单肩包</a>
+                    <a target="_blank" href="http://www.yintai.com/store/store-50004412.html">珞炫服饰</a>
+                    <a class="yt_hotword" target="_blank" href="http://www.yintai.com/product/list-10000654.html">塑身文胸</a>
+                    <a target="_blank" href="http://www.yintai.com/product/search.aspx?keyword=%E4%BF%9D%E6%B8%A9%E6%9D%AF">保温杯</a>
+                    <a target="_blank" href="http://www.yintai.com/store/store-50004410.html?supid=187955">秀扬</a>
+
+                </div>
+             </div>
+        </div>
+    </div>
+<!-- 下来侧边 -->
+    <div id = "down-menu">
+        <div class = "sidebar">
+            <div id ="select">
+               <a  id = "all" href="//channel.yintai.com/category/allcategorylistmap/index.html?intcmp=GGW20141215_home_f_a6"
+                      target="_blank">
+                       全部分类
+               </a>
+            </div>
+            <ul class = "foums">
+                   <li>
+                       <a class = "dob"href="">
+                            <span>名品馆</span>
+                       </a>
+                   </li>
+                   <li>
+                       <a class = "dob" href="">
+                            <span>特卖</span>
+                       </a>
+                   </li>
+                   <li>
+                       <a  class = "dob" href="">
+                            <span>海淘馆</span>
+                       </a>
+                   </li>
+                   <li>
+                       <a  class = "dob" href="">
+                            <span>会员专享</span>
+                       </a>
+                       <img src="img/nav-member-bg.gif" alt="" style="position:absolute;top:-1px;left:80px" width:"27";>
+                   </li>
+            </ul>
+            <div class ="store">
+                <a  class = "score" href="http://point.yintai.com/activitylist" target="_blank">积分商城</a>
+                        |
+                <a class = "score"  href="http://channel.yintai.com/Brand/AllBrandsHotRecommand?intcmp=GGW20150528_home_f_a7"
+                        target="_blank">
+                            全部品牌
+                </a>
+            </div>
+        </div>
+    </div>
+<!-- 具体商品 -->
+    <div id = "upall">
+    <div class = "middleall"> 
+       <div id = "goodpage">
+      <ul>
+		<li><a href="http://www.yintai.com/" target="_blank">首页</a>
+			>
+		</li>
+		<li><a href="http://www.yintai.com/product/list-10000702.html" target="_blank">
+		    女装</a>
+		    >
+		</li>
+		<li><a href="http://www.yintai.com/product/list-10000715.html" target="_blank">
+		    上装</a>
+			>
+		</li>
+		<li><a href="http://www.yintai.com/product/list-10000719.html" target="_blank">
+		    外套</a>
+			>
+		</li>
+		<li><a href="http://www.yintai.com/store/store-50004326.html" target="_blank">
+		    AAIOV</a>
+			>
+		</li>
+		<li>
+		<a href="http://item.yintai.com/21-446-3809C.html" target="_blank"> 
+		   短款夹克女外套</a>
+		</li>
+      </ul>
+       </div>
+       <div id = "Spgoods">
+		<div id = "Spgoods_l" >
+			<div id = "Spgoods_l_1">
+			   <div  id = "pic">
+			      <div id = "normal">
+			          <div id = "non"></div>
+				 	  <img  style="display: block;" src="http://p10.ytrss.com/product/21/464/3120/LargeImage/yintai_ac7297dd-e6f0-4570-a587-c01fae2f01c2.jpg" alt="正在加载">
+                      <img src="http:///p10.ytrss.com/product/21/464/0214/ZoomImage/yintai_e9c75449-a295-4d32-a6ca-9f6597ee5e73.jpg" alt="正在加载">
+                      <img src="http://p10.ytrss.com/product/21/464/3120/LargeImage/yintai_ac7297dd-e6f0-4570-a587-c01fae2f01c2.jpg" alt="正在加载">
+                      <img src="http://p10.ytrss.com/product/21/464/3120/LargeImage/yintai_ac7297dd-e6f0-4570-a587-c01fae2f01c2.jpg" alt="正在加载">
+				 	  <div id = "glass"></div>
+				   </div>
+				   <div id="normal2">
+		              <div id="magnify">
+			            <img src="img/yic.jpg">
+		              </div>
+	               </div>
+			   </div>
+			   <div id = "slidsp">
+				   <ul>
+                        <li>
+                          <img src="http://p10.ytrss.com/product/21/464/3120/SmallImage/yintai_ac7297dd-e6f0-4570-a587-c01fae2f01c2.jpg" alt="" width="60" height="80" />
+                        </li>
+                        <li>
+                          <img src="http://p10.ytrss.com/product/21/464/3120/SmallImage/yintai_ac7297dd-e6f0-4570-a587-c01fae2f01c2.jpg" alt="" width="60" height="80">
+                        </li>
+                        <li>
+                          <img src="http://p10.ytrss.com/product/21/464/3120/SmallImage/yintai_ac7297dd-e6f0-4570-a587-c01fae2f01c2.jpg" alt="" width="60" height="80">
+                        </li>
+                        <li>
+                          <img src="http://p10.ytrss.com/product/21/464/3120/SmallImage/yintai_ac7297dd-e6f0-4570-a587-c01fae2f01c2.jpg" alt="" width="60" height="80">
+                        </li>
+                </ul>
+			   </div>
+			   <div id = "Spgoods_lz">
+				   <div id = "Spgoods_lo">
+				     <p>
+						商品编号 :
+						<span>21-446-3809</span>
+				     </p>
+				   </div>
+				   <div id= "Spgoods_lt">
+						<a href="" id = "collect">
+							<span>收藏</span>
+						</a>
+						<a href="#" id = "chatwe">
+							<span> </span>
+						</a>
+						<div id = "wcer">
+							<a href="#">
+								<img src="img/xiang.png" width="84" height="84">
+							</a>
+							<div id = "wcerp">
+							  <p>用微信扫描二维码</p>
+							  <p>分享至好友或朋友圈</p>
+							</div>
+						</div> 
+
+						<a href="#" id = "share">
+							<span> </span>
+						</a>
+						<div id = "sharesele">
+							<div id = "people">
+							 <a href=""></a>
+							   <p>人人网</p>
+							</div>
+							<div id = "sina">
+							 <a href=""></a>
+							   <p>新浪微博</p>
+							</div>
+							<div id = "Tencent">
+							 <a href=""></a>
+							   <p>腾讯微博</p>
+							</div>
+							<div id = "Qzone">
+							 <a href=""></a>
+							   <p>QQ空间</p>
+							</div>
+						</div>
+				   </div>
+			   </div>
+			</div>
+			<div id = "Spgoods_l_2">
+			   <H1  class = "Alic"> 连帽撞色长袖短款夹克女外套Q17QS1777</H1>  
+			   <p id="cat">
+			     <i></i>
+			     <em>秒货尚品</em>
+			   </p> 
+
+			   <div id = "cost">
+			     <div id = "yt_cost">
+					<span>银泰价  :</span>
+					 <b>
+					  ¥320.
+					 <i>00</i>
+					</b>
+			     </div>
+			     <div id = "ck_cost">
+					<span>参考价  :</span>
+					 <b>
+					  ¥638.
+					 <i>00</i>
+                     <h3></h3>
+					</b>
+			     </div>
+			   </div>
+
+               <div id = "discount">
+                 <div id= "discount1">满减</div>
+                 <div id= "discount2">
+                    <a href="http://www.yintai.com/product/list-1.html?channelid=1100101&amp;promotionid=100184" target="_blank"> AIOV/艾欧唯 艾生活一波秋装盛宴 折后满99减20，满199减50</a>
+                 </div>
+               </div>
+
+               <div id = "choice">
+                 <dl id = "choiceColor">
+                    <dt>选择颜色  ：</dt>
+                    <dd>
+                     <div id= "red">
+                        <img src="http://p10.ytrss.com/product/21/464/3121/ColorImage/yintai_c508f3cf-9d9d-4d55-a05b-b4d273eddaa4.jpg" alt="" height="30" width="30" >
+                        <p>红色</p>
+                     </div>
+                    <div id ="green">
+                        <img src="http://p10.ytrss.com/product/21/464/3121/ColorImage/yintai_c508f3cf-9d9d-4d55-a05b-b4d273eddaa4.jpg" alt="" height="30" width="30">
+                        <p>绿色</p>
+                     </div>
+
+                    </dd>
+                 </dl>
+                 <dl id = "choiceSize">
+                    <dt>选择尺寸  ：</dt>
+                    <dd>
+                        <div> S </div>
+                        <div> M </div>
+                        <div> L </div>
+                        <div> XL </div>
+                    </dd>
+                 </dl>
+                 <div id = "buyshop">
+                    <div id="buynum">  
+                        <input type="number" value="1" max="99" min="1" step="1" />
+                    </div>  
+                    <div id="buycar">
+                        <button class = "buynow" title="立即购买"></button>
+
+                        <button class= "addcar" title="加入购物车"></button>
+                    </div>
+                 </div>
+
+                 <div id = "promise">
+                    <p>服务承诺 :</p>
+                    <div id = "promise1">
+                        <span>正品保障</span>
+                        <span>支持无理由退换货</span>
+                        <span>免运费</span>
+                    </div>
+                 </div>
+               </div>
+			</div>
+		</div>
+		<div id = "Spgoods_r">
+            <div id = "Spgoods_r1">
+                <a target="_blank" href="http://www.yintai.com/store/store-50004625.html">
+                    <img alt="AIOV" src="http://p10.ytrss.com/brand/brandlist/brand-4625.jpg" class="y-pro-cooper-logo" width="90" height="60">
+                </a>
+                <a target="_blank" href="http://www.yintai.com/store/store-50004625.html">银泰百货杭州下沙店-艾欧唯</a>
+            </div>
+        </div>
+       </div>
+       <div id = "spdefinite">
+         <div id = "spreferraall">
+           <div id = "spreferral">
+            <ul>
+                <li>商品介绍</li>
+                <li>商品评价</li>
+                <li>商品资讯</li>
+                <li>购买须知</li>
+            </ul>
+            <button class="spreferralcar" title="加入购物车"></button>
+             <div id = "convenient">
+                <p class = "php">手机下单更便捷</p>
+                <img src="img/xiang.png" alt="">
+             </div>
+           </div>
+           <div id="spreferra2">
+           <h2>商品参数
+            <span> Product Parameters</span>
+           </h2>
+           </div>
+
+           <div class="spreferra3">
+            <p class="market">
+                <span >上市时间：2017-Q3</span>
+                <span >尺码：S</span>
+                <span >色系：绿色</span>
+                <span >面料：面料：100%粘胶纤...</span>
+            </p>
+            <p class="model">
+                <span >版型：修身</span>
+                <span >袖长范围：长袖</span>
+                <span >衣长范围：常规款</span>
+                <span>风格：韩版</span>
+            </p>
+            <p class="styleele">
+                <span  >流行元素：拉链</span>
+                <span  >适合年龄：25-29周岁 </span>
+                <span >是否中老年女装：是</span>
+                <span >是否大码女装：是</span>
+            </p>
+           </div>
+
+           <div class=  "spreferra4">
+                    
+           </div>
+           <div id="spreferra2">
+            <h2>商品详情
+              <span>Product Details</span>
+            </h2>
+           </div>
+           <div class="spreferra5">
+
+                         
+           </div>
+           <div id="spreferra2">
+            <h2>细节展示
+              <span>Show Details</span>
+            </h2>
+           </div>
+           <div class="spreferra6">
+                    <img img-src="http://p10.ytrss.com//BlockImages/21/464/3120//yintai_46a6bc97-10a6-46c2-84b1-73bd33f85089.jpg" title="" alt="AIOV" src="http://p10.ytrss.com//BlockImages/21/464/3120//yintai_46a6bc97-10a6-46c2-84b1-73bd33f85089.jpg">
+                    <img img-src="http://p10.ytrss.com//BlockImages/21/464/3120//yintai_d1d42095-d77f-4283-a032-8b98ca2651ea.jpg" title="" alt="AIOV" src="http://p10.ytrss.com//BlockImages/21/464/3120//yintai_d1d42095-d77f-4283-a032-8b98ca2651ea.jpg">
+           </div>
+           <div id="spreferra2">
+            <h2>价格说明
+              <span>Price Description</span>
+            </h2>
+           </div>
+           <div id="spreferra7">
+            <p>银泰价：银泰价为商品的销售价，该价格是交易成交价，是您最终决定是否购买商品的依据。</p>
+            <p>划线价：商品展示的划横线价格为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在银泰网平台上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。</p>
+            <p>折扣：银泰网上展示的折扣为银泰价与参考价的对比（该值四舍五入后采小数点后1位，如¥799/¥2899=0.2756=2.8折），该对比值仅供您参考，不作为结算基数。</p>
+            <p>促销：商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议购买前先联系银泰网客服进行咨询。</p>
+           </div>
+           <div id="spreferra2">
+            <h2>品牌故事
+              <span>Brand Story</span>
+            </h2>
+           </div>
+           <div class="spreferra8">
+            <div class="spreferra81">
+                <img img-src="http://p10.ytrss.com/Brand/4625/pp.jpg" src="http://p10.ytrss.com/Brand/4625/pp.jpg">
+            </div>
+            <div class="spreferra82">
+                <div class="spreferra82-img">
+                    <img img-src="http://p10.ytrss.com/Brand/4625/logo.jpg" src="http://p10.ytrss.com/Brand/4625/logo.jpg">
+                </div>
+
+                <div class="spreferra82-txt">
+                    <p class="spreferra82-cnName">AIOV</p>
+                    <p class="p-fenge90"></p>
+                    <p class="spreferra82d-txt">经历岁月的历练，AIOV已经成为拥有气质内心的“生活方式”品牌。她的每一件作品，都沁润着“凝练而不失质感”的设计智慧。优雅与简约的精神主线，表现出AIOV女人内外兼修的不俗气韵。AIOV的凝练表现在——不管是少女的情怀，还是熟女的大胆性感，AIOV拒绝在设计手法上做过于夸张的自我标榜，而是将优......</p>
+                    <p class="spreferra81-href"><a href="http://www.yintai.com/store/store-50004625.html" target="_blank">进入品牌店&gt;&gt;</a></p>
+                </div>
+            </div>
+           </div>
+         </div>
+        <div id="spreferrar">
+           <h5>
+              <span class="other" style="visibility: visible;">换一批</span>
+              <span>人气推荐</span>
+           </h5>
+           <ul class="spreferrarul">
+                
+            </ul>
+            <ul class="spreferrarul">
+                
+            </ul>
+        </div>
+       </div> 
+    </div>
+    </div>
+
+<!-- 尾部 -->
+    <div class = "ft">
+        <div class = "ftm">
+            <div class="itips">
+                <span class="service">
+                    <strong>400-119-1111</strong><i>8:00-24:00</i>
+                    <b>service@yintai.com</b>
+                </span>
+                <span class="delivery">
+                    <strong><i>15天</i>无忧退换货</strong>
+                    <b>为您提供优质售后服务</b>
+                </span>
+                <span class="genuine">
+                    <strong><i>100%</i>正品保证</strong>
+                    <b>品质护航 购物无忧</b>
+                </span>
+                <span class="freight">
+                    <strong><i>满199元</i>免运费</strong>
+                    <b>为您提供便利物流</b>
+                </span>         
+            </div>
+            <div class = "fto">
+               <a href="http://about.yintai.com/about/about.html" target="_blank">关于银泰</a>
+               |
+               <a href="http://www.yintai.com/sitemap/onlinecategory.aspx" target="_blank">
+                   网站地图
+               </a>
+               |
+               <a href="http://www.yintai.com/help/index.html" target="_blank">
+                   帮助中心
+               </a>
+                |
+               <a href="http://about.yintai.com/about/biz.html" target="_blank">
+                   企业客户
+               </a>
+                |
+               <a href="http://agent.yintai.com" target="_blank">代理合作</a>
+                |
+               <a href="http://about.yintai.com/about/business.html" target="_blank">
+                  品牌招商
+               </a>
+                |
+               <a href="http://about.yintai.com/partner/partner.html" target="_blank">
+                  商务合作
+               </a>
+                |
+               <a href="http://cps.yintai.com" target="_blank">网站联盟</a>
+                |
+               <a href="http://about.yintai.com/about/contact.html" target="_blank">联系我们</a>
+                |
+               <a href="http://about.yintai.com/about/joinus.html" target="_blank">加入银泰</a>
+                |
+               <a href="http://about.yintai.com/about/copyright.html" target="_blank">版权声明</a>
+                |
+               <a rel="nofollow" href="http://about.yintai.com/about/law.html" class="last" target="_blank">
+                  法律声明
+               </a>
+            </div>
+            <div class = "ftz">
+               <p>
+                  <span>浙ICP备10200233号</span>
+                  <span>京公网安备110105019085</span>
+                  <span>增值电信业务经营许可证：浙B2-20110005</span>
+               </p>
+               <p>Yintai © 2014, 银泰电子商务有限公司.</p>
+            </div>
+            <div class = "ftt">
+              <img class = "im1" src="img/yt-ntegrity.png" alt="" />
+              <img class = "im3" src="img/commerce.gif" alt="" />
+            </div>
+        </div>
+    </div>
+
+
+<!-- 回到顶部 -->
+    <div id = "backtop">   
+        <a href="#"> </a>
+    </div>
+</body>
+</html>

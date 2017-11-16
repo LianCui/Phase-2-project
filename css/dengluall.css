@@ -1,0 +1,253 @@
+   *{
+        margin:0;
+        padding:0;
+    }
+        #body #div1{
+            height:460px;
+            width:386px;
+            background:#f3f3f3;
+            float:right;
+        }
+       #body #div1 ul{
+            list-style: none;
+
+        }
+       #body #div1 .active{
+            height:40px;
+            width:386px;
+            background:#fff;
+            display: flex;
+        }
+       #body #div1 ul li{
+             flex:1;
+             line-height: 40px;
+             text-align: center;
+             position:relative;
+             color:#999;
+             cursor: pointer;
+        } 
+        #body #div1 ul.active li:hover{
+            color:#333;
+            border-bottom:3px solid #e5004f;
+        }  
+       #body #div1 #passport{
+            height:222px;
+            width:386px;
+            margin-top:20px; 
+        }
+       #body #div1 #passport #phone-numb{
+            height:61px;
+            position:relative;
+            border-top: 1px solid #d5d5d5;
+            background:#fff;
+        }
+       #body #div1 #passport #phone-code{
+            height:61px;
+            position:relative;
+            border-bottom: 1px solid #d5d5d5; 
+            border-top: 1px solid #d5d5d5;
+            background:#fff;
+        }
+       #body  #div1 #passport img{
+            margin-left: 20px;
+            margin-top:14px;
+            height:21px;
+            width:21px;  
+        }      
+        #div1 #passport span{
+            color:red;
+            font-size: 12px;
+            margin-left: 60px;
+            margin-top: -5px;
+            display: none;   
+        }
+       #body #div1 #passport input{
+            outline: 0;
+            position:absolute;
+            width: 80%;
+            font-size: 16px;
+            color: #666;
+            margin:18px;
+            border:0px;
+            top:-2px;
+        }
+       #body #div1 #passport .butn1{
+            margin: 10px;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+            background-color: #e5004f;
+            color: #fff;
+            cursor: pointer;
+            width:366px;
+            height:50px;
+            outline: 0;
+            border:0;
+        }
+       #body #div1 #passport #code p{
+            float:left;
+            margin-left:20px;
+            cursor: pointer;
+            color:#999;
+        }
+      #body #div1 #passport #code span{
+            float:right;
+            margin-right: 10px;
+            font-size: 14px;
+            color: #e5004f;
+            cursor: pointer;
+            display: block;
+        }
+       #body #div1 #foot{
+            width:386px;
+            height:90px;
+            background: #fff;
+            margin-top: 95px;
+            overflow: hidden;
+        }
+      #body  #div1 #foot #account{
+            font-size: 12px;
+            color:#999;
+            margin-top: 26px;
+            margin-left: 130px;
+        }
+       #body #div1 #foot #clear{
+            margin-left: 129px;
+            margin-top: 15px;
+            font-size: 12px;
+            color:#999;
+        }
+       #body #div1 #foot #clear a{
+            font-size: 12px;
+            color:#999; 
+            padding:0 5px 0 5px;
+            text-decoration: none;
+        } 
+       #body #div1  #thid {
+            width:385px;
+            height:420px;
+            background:#F3F3F3;
+            overflow: hidden;
+         }
+        #body #div1 #ercode{
+            width:385px;
+            height:400px;
+            margin-top:20px;
+            background:#fff;
+            overflow: hidden;
+         }
+        #body #div1 #ercode p{
+            margin-bottom: 20px;
+            padding-top: 34px;
+            margin-left:88px;
+            font-size: 14px;
+            color:#000000;
+         }
+       #body #div1 #ercode #ercodeshell{
+            width:280px;
+            height:140px;
+            position:relative;
+            margin:25px 0 15px;
+            left:130px;
+        } 
+       #body #div1 #ercode #ercodeshell img{
+            position:absolute;
+            margin-left:80px;
+            margin-top:10px;
+        }
+         #body #div1 #ercode #ercodeshell #ercode_l{
+            position:absolute;
+            margin-left: 0px;
+            z-index: 10;
+            height:125px;
+            width:125px;
+         }
+       #body #div1 #ercode #ercodeshell .scan{
+            position:absolute;
+            margin-top:-15px;
+            height:175px;
+            width:135px;
+        }
+       #body #div1 #ercode #downa{
+            margin-top: 24px;
+            margin-left:104px;
+        }
+       #body #div1 #ercode #downa a{
+            text-decoration: none;
+            font-size: 14px;
+            color:#999;
+        }
+       #body #div1 #ercode #downa a:hover{
+            color:#e5004f;
+        }
+       #body #div1 #ercode #use{
+            border:1px solid #e5004f;
+            color:#e5004f;
+            width: 140px;
+            margin: 0 auto;
+            padding: 3px 0;
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+       #body #div1 #ercode #end{
+            width:385px;
+            height:114px;
+            font-size:12px;
+            color:#999 ;
+        }
+       #body #div1 #ercode #end p{
+             margin-left: 115px;
+            font-size:12px;
+            color:#999 ;
+        }
+       #body #div1 #ercode #end .clear{
+            margin-left: 130px;
+        }
+       #body #div1 #ercode #end a{
+            color:#999;
+            text-decoration: none;
+            left:170px;
+        }
+        #sec{
+            background:#F3F3F3;
+        }
+        #sec,#thid{
+            display:none;
+        }
+
+  #zcshade {
+    width: 385px;
+    height: 460px;
+    top: 60px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+  #warm {
+    width: 308px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    border-radius: 10px;
+}
+  #warm h3 {
+    font-weight: 500;
+    padding: 15px 15px 0;
+}
+  #warm p {
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 30px 15px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+  #warm h4 {
+    font-weight: 500;
+    color: rgb(255, 59, 127);
+    padding: 10px 0;}
+
